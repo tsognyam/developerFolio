@@ -13,8 +13,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: Checkout 🛎️
         uses: actions/setup-node@v3 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          node-version: 16
       - name: Install and Build 🔧
         run: |
           npm install
