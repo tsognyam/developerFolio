@@ -77,6 +77,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "GraphQl",
+      fontAwesomeClassname: "fab fa-webhook"
+    },
+    {
+      skillName: "REST API",
+      fontAwesomeClassname: "fab fa-webhook"
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
